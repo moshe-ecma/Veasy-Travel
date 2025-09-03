@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V'Easy Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://kit.fontawesome.com/aa27190f4e.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="/assests/logo.jpg" />
+  </head>
+  <body>
+    <div class="show-case special">
+      <div class="globe-animation">
+        <a class="home-btn" href="/"><i class="fa-solid fa-house home-icon"></i></a>
+        <dotlottie-player class="animation payment-animation" src="https://lottie.host/7520d4fc-4497-4074-911c-9f246a4ad004/H0k8HUwpme.lottie" background="transparent" speed="1" style="width: 400px; height: 400px" loop autoplay></dotlottie-player>
+      </div>
+
+      <div class="header">
+        <div class="content">
+          <h1>Payment Methods</h1>
+        </div>
+      </div>
+    </div>
+    <div class="payment-menthods">
+      <div class="grid">
+        <a href="credit.html">
+          <p>Credit Card</p>
+          <img class="svg-logo" src="/assests/icons/credit-card-pay-svgrepo-com.svg" alt="" />
+        </a>
+        <a href="https://enroll.zellepay.com/qr-codes?data=eyJuYW1lIjoiTEVWSSIsImFjdGlvbiI6InBheW1lbnQiLCJ0b2tlbiI6InZlYXN5dHJhdmVsYWlyQGdtYWlsLmNvbSJ9" target="_blank">
+          <p>Zelle</p>
+          <img class="svg-logo nw" src="/assests/icons/zelle.svg" alt="" />
+        </a>
+        <a href="https://cash.app/$vorovitch" target="_blank">
+          <p>CashApp</p>
+          <img class="svg-logo" src="/assests/icons/cashapp-svgrepo-com.svg" alt="" />
+        </a>
+        <a id="paypal" href="https://paypal.me/levivee?country.x=US&locale.x=en_US" target="_blank">
+          <p>PayPal</p>
+          <img class="svg-logo" src="/assests/icons/paypal.svg" alt="" />
+        </a>
+        <a id="eTransfer">
+          <p>E-Transfer</p>
+          <img class="svg-logo" src="/assests/icons/interac.svg" alt="" />
+        </a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; V'easy Travel</p>
+      <div class="icons">
+        <a href="https://wa.me/7707443766"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:veasytravelair@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        <a href="tel:7707443766"><i class="fa-solid fa-phone"></i></a>
+      </div>
+      <p>Development by <a href="https://ecma-systems.com" target="_blank"> Ecma Systems</a></p>
+      <script src="payments.js"></script>
+    </footer>
+  </body>
+</html>
