@@ -3,7 +3,7 @@ const paypal = document.getElementById('paypal')
 
 
 e_tarnsfer.onclick = () => {
-        // The text you want to copy
+    // The text you want to copy
     let copyText = 'veasytravelair@gmail.com';
 
     // Copy the text directly to clipboard
@@ -15,4 +15,5 @@ e_tarnsfer.onclick = () => {
 
 paypal.onclick = () => {
     alert(`VERY IMPORTANT! PLEASE SEND AS "FRIENDS AND FAMILY"`)
+
 }
